@@ -48,7 +48,7 @@ except URLError as e:
   streamlit.error()
     
 #don't run anything past here wgile we troubleshoot
-streamlit.stop()
+#streamlit.stop()
 
 def get_fruit_load_list():
     with my_cnx.cursor() as my_cur:
